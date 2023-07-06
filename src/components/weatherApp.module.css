@@ -1,0 +1,14 @@
+.weatherContainer {
+    width: 500px;
+    height: 500px;
+  }
+
+  @media (max-width: 550px) {
+    .weatherContainer {
+      width: 350px;
+    }
+
+    .weatherContainer h3 {
+      font-size: 14px;
+    }
+  }
